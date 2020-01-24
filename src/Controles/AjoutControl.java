@@ -16,6 +16,7 @@ public void actionPerformed(ActionEvent e)
     Dao dao = new Dao();
     dao.ajouter(glob.nom.getText(), glob.prenom.getText(), glob.note.getText(),glob.moyenne.getText());
  	glob.lab1.setText("nam");//change label text
+ 	System.out.println("shalom");
 	     }
 
 	
